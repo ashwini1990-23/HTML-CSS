@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form to register</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" autofocus>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subsribe to Newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comments here..</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="fruits">Choose your favirate fruit</label>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="banana">Banana</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
